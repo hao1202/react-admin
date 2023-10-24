@@ -4,6 +4,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import "./Styles/global.scss";
 function App() {
   const router = createBrowserRouter([
     {
@@ -24,10 +25,10 @@ function App() {
         },
       ],
     },
-		{
-			path: '/login',
-			element: <Login />
-		}
+    {
+      path: "/login",
+      element: <Login />,
+    },
   ]);
   return <RouterProvider router={router} />;
 }
