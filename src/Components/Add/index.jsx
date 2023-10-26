@@ -1,6 +1,6 @@
-import "./addUser.scss";
+import "./add.scss";
 
-const AddUser = (props) => {
+const Add = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -9,7 +9,7 @@ const AddUser = (props) => {
   };
 
   return (
-    <div className="addUser">
+    <div className="add">
       <div className="modal">
         <span
           className="close"
@@ -40,4 +40,4 @@ const AddUser = (props) => {
   );
 };
 
-export default AddUser;
+export default Add;
