@@ -4,6 +4,9 @@
   }
 
   .list {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
     .listItem {
       display: flex;
       align-items: center;
