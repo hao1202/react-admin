@@ -2,7 +2,7 @@ import DataTable from "../../Components/DataTable";
 import "./users.scss";
 import { userRows } from "../../data";
 import { useState } from "react";
-import AddUser from "../../Components/AddUser";
+import Add from "../../Components/Add";
 
 const columns = [
   { field: "id", headerName: "ID", width: 90 },
@@ -73,7 +73,7 @@ const Users = () => {
         rows={userRows}
       />
       {open && (
-        <AddUser
+        <Add
           slug="user"
           columns={columns}
           setOpen={setOpen}
