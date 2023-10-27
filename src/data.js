@@ -561,8 +561,8 @@ export const products = [
 
 export const singleUser = {
   id: 1,
-  title: "John Doe",
-  img: "https://images.pexels.com/photos/17397364/pexels-photo-17397364.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+  title: "Hao",
+  img: "https://ss-images.saostar.vn/wp700/pc/1655895094264/saostar-zemx7kpv9n1wnysy.jpg",
   info: {
     username: "haotvh",
     fullname: "tranvanhao",
