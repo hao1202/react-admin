@@ -69,7 +69,7 @@ const Products = () => {
         </button>
       </div>
       <DataTable
-        slug="products"
+        slug="product"
         columns={columns}
         rows={products}
       />

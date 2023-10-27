@@ -68,7 +68,7 @@ const Users = () => {
         </button>
       </div>
       <DataTable
-        slug="users"
+        slug="user"
         columns={columns}
         rows={userRows}
       />
