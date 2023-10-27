@@ -1,5 +1,12 @@
 import Primary from "./Layout/Primary";
-import { Home, Login, Products, Users } from "./Pages";
+import {
+  Home,
+  Login,
+  Product,
+  Products,
+  User,
+  Users,
+} from "./Pages";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,12 +23,20 @@ function App() {
           element: <Home />,
         },
         {
-          path: "users",
+          path: "/users",
           element: <Users />,
         },
         {
-          path: "products",
+          path: "/products",
           element: <Products />,
+        },
+        {
+          path: "/product/:id",
+          element: <Product />,
+        },
+        {
+          path: "/user/:id",
+          element: <User />,
         },
       ],
     },
