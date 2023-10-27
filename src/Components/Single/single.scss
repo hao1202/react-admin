@@ -20,6 +20,19 @@
         h1 {
           font-weight: 500;
         }
+
+        button {
+          padding: 15px 30px;
+          border-radius: 5px;
+          background-color: #f45b69;
+          color: white;
+					font-size: 20px;
+					font-weight: 500;
+
+          &:hover {
+						background-color: #90272f;
+          }
+        }
       }
 
       .details {
@@ -76,22 +89,22 @@
           height: 10px;
           border-radius: 50%;
           background-color: #f45b69;
-					transform: translateX(-50%);
+          transform: translateX(-50%);
         }
 
-				div {
-					min-width: 480px;
-					padding: 15px;
-					background-color: #f45b6810;
+        div {
+          min-width: 480px;
+          padding: 15px;
+          background-color: #f45b6810;
 
-					p {
-						margin-bottom: 5px;
-					}
+          p {
+            margin-bottom: 5px;
+          }
 
-					time {
-						font-size: 12px;
-					}
-				}
+          time {
+            font-size: 12px;
+          }
+        }
       }
     }
   }
